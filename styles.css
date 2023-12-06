@@ -1,0 +1,187 @@
+* { 
+    margin: 0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header-img {
+    width: 70px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.the-product {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+#email-section {
+    margin-top: 100px;
+}
+
+section::before {
+    display: block;
+    content: "";
+    margin-top: -100px;
+    height: 100px;
+}
+
+section {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0), 156, 150;
+}
+
+#submit {
+    background-color: #467419;
+    color: white;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+i {
+    color: green;
+    margin-right: 30px;
+    object-fit: contain;
+}
+
+#features {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px;
+    font-size: x-large;
+ }
+
+ #video {
+    width: 100%;
+ }
+
+ .product-image {
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+ }
+ 
+ .product1 {
+    background-image: url(https://shoyoroll.com/cdn/shop/products/SHOYOROLL_22.6_019_ad73519d-72ff-4a82-93fe-4df6a11dee4f_1024x1024.jpg?v=1676569436);
+
+ }
+
+ .card {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+ }
+
+ .inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+ }
+
+ .content {
+    color: black;
+    margin-bottom: 10px;
+ }
+
+ .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+
+ .main-price {
+    margin-right: 20px;
+    font-size: 30px;
+    color: green;
+ }
+
+ .old-price {
+    text-decoration: line-through;
+    color: gray;
+ }
+
+ .company {
+    letter-spacing: 2px;
+    color: black;
+    text-transform: uppercase;
+ }
+
+ .header {
+    color: black;
+ }
+
+ .add {
+    background-color: green;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    font-weight: 700px;
+    display: flex;
+    margin-bottom: 10px;
+ }
+
+ .product2 {
+    background-image: url(https://fightersmarket.com/cdn/shop/products/KINGZ-BALISTICO-3.0-GI-BLACK-FLAT.jpg?v=1688066932);
+ }
+
+ @media (max-width: 600px) and (min-width: 450px) {
+    
+ }
